@@ -10,6 +10,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Filebeat_install_playbook](https://github.com/DH7777/Cyber-Project1/blob/main/Ansible/Filebeat_playbook.txt)
 
+[Metricbeat install playbook](Ansible/Metricbeat_install_playbook)
+
 This document contains the following details:
 - Description of the Topology
 - Access Policies
