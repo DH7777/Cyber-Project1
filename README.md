@@ -27,12 +27,13 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting unwanted access to the network.
 
-Load Balancers will help distribute incoming requests so that one server will not get overwhelmed and cause it to shut down.  Having it set up this way, will also help against DDOS attacks that would render a server useless, but with a load balancer, the next server would be able to carry the load until you can get the attacked server back up. Creating a JumpBox also eliminates the security risk of the servers data being able to get hacked, since the attackers won’t be able to get to the servers themselves.
+-Load Balancers will help distribute incoming requests so that one server will not get overwhelmed and cause it to shut down.  Having it set up this way, will also help against DDOS attacks that would render a server useless, but with a load balancer, the next server would be able to carry the load until you can get the attacked server back up. Creating a JumpBox also eliminates the security risk of the servers data being able to get hacked, since the attackers won’t be able to get to the servers themselves.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file systems and watch system metrics.
-Filebeat is a shipper for forwarding and centralizing logdata.  It will monitor the log files and collect log events, and forwards them to Elasticsearch for indexing. 
 
-Metricbeat would record the operational state of the computer and send them to Elasticsearch.  It can be helpful in determining uptime, CPU usage , and other info needed for upgrades.
+-Filebeat is a shipper for forwarding and centralizing logdata.  It will monitor the log files and collect log events, and forwards them to Elasticsearch for indexing. 
+
+-Metricbeat would record the operational state of the computer and send them to Elasticsearch.  It can be helpful in determining uptime, CPU usage , and other info needed for upgrades.
 
 The configuration details of each machine may be found below.
 
