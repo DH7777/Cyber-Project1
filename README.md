@@ -54,7 +54,7 @@ Only the Jump-Box machine can accept connections from the Internet. Access to th
 
 Machines within the network can only be accessed by Jump-Box.
 
-The ELK server can be accessed only by the Jump-Box with IP 10.1.0.4
+The ELK server can be accessed only by the private IP 76.30.62.136 and 10.1.0.4
 
 A summary of the access policies in place can be found in the table below.
 
@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump-Box   | Yes                     | 76.30.62.163             |
 | Web-1      | No                      | 10.1.0.4                 |
 | Web-2      | No                      | 10.1.0.4                 |
-| ELK-Server | No                      | 10.1.0.4                 |
+| ELK-Server | No                      | 76.30.62.163/10.1.0.4    |
 
 ### Elk Configuration
 
